@@ -83,6 +83,21 @@ header::before {
   font-size: 1rem;
 }
 
+.list-item > a {
+  display: inline-block;
+}
+
+.list-item i {
+  /* display: inline-block; */
+  cursor: pointer;
+}
+
+.list-item i:hover,
+.list-item > a:hover {
+  opacity: 0.7;
+  animation: vibrate-1 0.3s linear infinite both;
+}
+
 .hero {
   width: 50%;
   padding: 5em 0 0 7em;
@@ -98,7 +113,7 @@ header::before {
 }
 
 #search-input {
-  width: 20em;
+  width: 25em;
   padding: 0.7em 2em;
   border-radius: 5px;
   outline: none;
@@ -123,6 +138,7 @@ header::before {
   margin-left: -2em;
   font-size: 0.8rem;
   color: #fff;
+  cursor: pointer;
 }
 
 .social-links {
@@ -134,8 +150,37 @@ header::before {
   margin-right: 2em;
 }
 
+.social-links a {
+  display: inline-block;
+}
+
 .social-links a > i {
   color: orange;
+}
+
+.social-links a:hover {
+  animation: vibrate-1 0.3s linear infinite both;
+}
+
+@keyframes vibrate-1 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
 
 footer {
