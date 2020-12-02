@@ -125,6 +125,19 @@ header::before {
   color: #fff;
 }
 
+.social-links {
+  padding-top: 2em;
+  font-family: sans-serif;
+}
+
+.social-links > * {
+  margin-right: 2em;
+}
+
+.social-links a > i {
+  color: orange;
+}
+
 footer {
 }
 
