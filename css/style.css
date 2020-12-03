@@ -491,6 +491,9 @@ div.active-menu > a {
   color: rgb(185, 184, 184);
 }
 
+.portrait > .reviews-star {
+  margin: 1em 0;
+}
 footer {
 }
 
