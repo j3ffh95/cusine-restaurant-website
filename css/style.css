@@ -59,6 +59,7 @@ img {
 
 .text-primary {
   color: #ff8800;
+  font-size: 1rem;
 }
 
 /******************************************
@@ -272,6 +273,17 @@ header::before {
 .menu-section {
   height: 40em;
   background-color: #f2f6f7;
+}
+
+.menu-text-content {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4em 0 0;
+}
+
+.main-text-content > h2 {
+  font-size: 4rem;
 }
 
 footer {
