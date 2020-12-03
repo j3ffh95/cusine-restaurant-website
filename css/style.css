@@ -48,6 +48,19 @@ img {
   height: auto;
 }
 
+.btn {
+  font-size: 0.8rem;
+  background-color: #f80;
+  color: #fff;
+  padding: 1em;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.text-primary {
+  color: #ff8800;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -225,8 +238,40 @@ header::before {
 
 .main-text-content {
   width: 40%;
-  margin-left: 33em;
+  margin-left: 32em;
   padding-top: 5em;
+}
+
+.main-text-content > h2 {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin: 0.5em 0;
+}
+
+.main-text-content > p {
+  font-size: 1rem;
+  margin-bottom: 1.5em;
+}
+
+.main-text-content > a.btn {
+  position: relative;
+}
+
+.main-text-content i {
+  background: #ffaa4d;
+  padding: 1em;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -30px;
+  padding-top: 15%;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Menu Section */
+.menu-section {
+  height: 40em;
+  background-color: #f2f6f7;
 }
 
 footer {
