@@ -305,6 +305,11 @@ header::before {
   border-bottom: solid 1px #ff8800;
 }
 
+.gallery-section {
+  width: 80%;
+  margin: 5em auto 0;
+}
+
 footer {
 }
 
