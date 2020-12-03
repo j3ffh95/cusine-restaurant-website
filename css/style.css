@@ -282,8 +282,15 @@ header::before {
   padding: 4em 0 0;
 }
 
-.main-text-content > h2 {
+.menu-text-content > h2 {
   font-size: 4rem;
+}
+
+.categories > * {
+  padding: 0.5em 2em;
+  border-bottom: solid 1px #ddd;
+  margin: -3px;
+  font-size: 1rem;
 }
 
 footer {
