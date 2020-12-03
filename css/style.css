@@ -70,6 +70,25 @@ img {
   color: #ff8800;
 }
 
+.circles-section {
+  /* height: 1em; */
+}
+
+.circles-section > * {
+  display: inline-block;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  background-color: #ff8800;
+  opacity: 0.5;
+  margin: 0 0.2em;
+}
+
+.circles-section > .active {
+  transform: scale(2);
+  opacity: 1;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -369,10 +388,15 @@ div.active-menu > a {
   left: 31%;
 }
 
-/* COntact Session */
+/* Contact Session */
 .contact-section {
-  background-color: #fff;
-  height: 70em;
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("https://images.unsplash.com/photo-1568051243847-b6319fad107c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  height: 60em;
 }
 
 .fa-phone {
@@ -381,6 +405,33 @@ div.active-menu > a {
   border-radius: 50%;
   padding: 0.5em;
   border: solid 1px #ff8800;
+  margin-top: 1em;
+}
+
+.phone-number {
+  font-size: 2rem;
+}
+
+.hours-section {
+  overflow: hidden;
+  width: 90%;
+  margin: 1em auto 2em;
+}
+
+.hours-section > * {
+  font-size: 1rem;
+}
+
+.hours {
+  font-size: 1.3rem;
+}
+
+.left-section {
+  float: left;
+}
+
+.right-section {
+  float: right;
 }
 
 .video-section {
@@ -408,6 +459,12 @@ div.active-menu > a {
   height: 25em;
   object-fit: cover;
   object-position: 0% 90%;
+}
+
+/* Reviews Section */
+.reviews-section {
+  background-color: #fff;
+  height: 40em;
 }
 
 footer {
