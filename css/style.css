@@ -71,7 +71,7 @@ img {
 }
 
 .circles-section {
-  /* height: 1em; */
+  text-align: center;
 }
 
 .circles-section > * {
@@ -331,7 +331,7 @@ header::before {
 
 .gallery-section {
   width: 80%;
-  margin: 5em auto 0;
+  margin: 5em auto 1em;
   overflow: hidden;
 }
 
@@ -465,6 +465,30 @@ div.active-menu > a {
 .reviews-section {
   background-color: #fff;
   height: 40em;
+}
+
+.circular-landscape {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 2em;
+}
+
+.circular-landscape img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portrait > h3 {
+  font-size: 2rem;
+}
+
+.portrait > p {
+  font-size: 0.7rem;
+  color: rgb(185, 184, 184);
 }
 
 footer {
