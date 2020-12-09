@@ -629,4 +629,18 @@ footer {
   .circles-section {
     display: none;
   }
+
+  /* COntact Section */
+  .contact-section {
+    height: unset;
+  }
+
+  .left-section > *,
+  .right-section > * {
+    font-size: 0.8rem;
+  }
+
+  .video-section > i {
+    display: none;
+  }
 }
