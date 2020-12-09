@@ -547,6 +547,7 @@ footer {
   header::before {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../images/hero-bg.jpg");
+    background-position: revert;
   }
 
   .navbar {
@@ -569,5 +570,32 @@ footer {
   .list-item > a,
   .list-item > i {
     color: #fff;
+  }
+
+  .hero {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .hero > h1 {
+    font-size: 3rem;
+    color: white;
+  }
+
+  .search-form {
+    height: 45px;
+  }
+
+  #search-input {
+    height: 97%;
+  }
+
+  .search-btn {
+    height: 100%;
+  }
+
+  .social-links a {
+    color: white;
   }
 }
