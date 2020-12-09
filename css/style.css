@@ -502,4 +502,34 @@ footer {
 /*******************************************/
 
 @media (max-width: 1200px) {
+  #search-input {
+    width: unset;
+  }
+
+  .main-text-content {
+    margin: auto;
+    width: 50%;
+    padding: unset;
+  }
+
+  .main-text-content > h2 {
+    font-size: 3rem;
+  }
+
+  .text-content > h2 {
+    font-size: 3rem;
+  }
+
+  .menu-section {
+    height: unset;
+  }
+
+  .categories > * {
+    padding: 0.5em 1em;
+  }
+
+  .gallery-section > div {
+    float: none;
+    width: unset;
+  }
 }
