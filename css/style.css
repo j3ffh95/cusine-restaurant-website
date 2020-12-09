@@ -542,3 +542,32 @@ footer {
     width: 40%;
   }
 }
+
+@media (max-width: 550px) {
+  header::before {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/hero-bg.jpg");
+  }
+
+  .navbar {
+    float: none;
+    margin: 0;
+  }
+
+  .navlist {
+    height: 7rem;
+    padding: 1em;
+    overflow: auto;
+    width: 25rem;
+    margin: 0 auto;
+  }
+
+  .navlist > * {
+    padding: 0 1.5em;
+  }
+
+  .list-item > a,
+  .list-item > i {
+    color: #fff;
+  }
+}
