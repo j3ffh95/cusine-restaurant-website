@@ -616,4 +616,17 @@ footer {
     width: 85%;
     padding: 2em 0;
   }
+
+  /* Menu Section */
+  .text-content {
+    width: 85%;
+  }
+
+  .categories > * {
+    border-bottom: none;
+  }
+
+  .circles-section {
+    display: none;
+  }
 }
