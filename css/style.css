@@ -532,4 +532,13 @@ footer {
     float: none;
     width: unset;
   }
+
+  .left-section {
+    float: left;
+    width: 40%;
+  }
+
+  .right-section {
+    width: 40%;
+  }
 }
