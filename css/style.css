@@ -559,8 +559,8 @@ footer {
     height: 7rem;
     padding: 1em;
     overflow: auto;
-    width: 25rem;
-    margin: 0 auto;
+    /* width: 25rem;
+    margin: 0 auto; */
   }
 
   .navlist > * {
@@ -642,5 +642,9 @@ footer {
 
   .video-section > i {
     display: none;
+  }
+
+  .reviews-section {
+    height: unset;
   }
 }
