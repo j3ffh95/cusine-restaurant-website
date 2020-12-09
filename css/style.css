@@ -598,4 +598,22 @@ footer {
   .social-links a {
     color: white;
   }
+
+  /* Main Section */
+  .main-section {
+    background-image: linear-gradient(
+        to top,
+        rgba(225, 225, 225, 0.8),
+        rgba(225, 225, 225, 0.8)
+      ),
+      url("../images/main-bg01.jpg");
+    background-size: cover;
+    background-position: left;
+    height: unset;
+  }
+
+  .main-text-content {
+    width: 85%;
+    padding: 2em 0;
+  }
 }
